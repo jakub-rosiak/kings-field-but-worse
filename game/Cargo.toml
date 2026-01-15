@@ -5,3 +5,5 @@ edition = "2024"
 
 [dependencies]
 bevy = { version = "0.17.3", features = ["dynamic_linking"] }
+input = { path = "../input" }
+log = "0.4.29"
