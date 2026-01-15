@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+avian3d = "0.4.1"
 bevy = { version = "0.17.3", features = ["dynamic_linking"] }
 input = { path = "../input" }
 log = "0.4.29"
