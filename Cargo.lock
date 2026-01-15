@@ -2368,6 +2368,8 @@ name = "game"
 version = "0.1.0"
 dependencies = [
  "bevy",
+ "input",
+ "log",
 ]
 
 [[package]]
@@ -2705,6 +2707,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e05c02b5e89bff3b946cedeca278abc628fe811e604f027c45a8aa3cf793d0eb"
 dependencies = [
  "libc",
+]
+
+[[package]]
+name = "input"
+version = "0.1.0"
+dependencies = [
+ "bevy",
 ]
 
 [[package]]
